@@ -1,0 +1,42 @@
+package practica;
+
+public class AppPrincipal {
+
+	public static void main(String[] args) {
+		//estudiante
+		System.out.println("**Persona Estudiante***");
+		Persona perE= new Estudiantes(35664, "Pedro", "Lopez", 25, "Cordoba 349", 101123, "Comunicación Social", 15, 20);
+		if(perE.activarActor()) {
+			System.out.println("Actor Estudiante Activo");
+			}
+			else {
+				System.out.println("Actor Estudiante INactivo");
+			}
+		System.out.println(perE.informarQueEs());
+		System.out.println(perE.salular());
+		System.out.println(perE.aprender());
+		System.out.println(perE.toString());
+		
+		System.out.println("**Estudiante Estudiante***");
+		Estudiantes estudy1 = new Estudiantes(935664, "JAsinto", "Gonzalez", 20, "9 de julio 1387", 234324, "Ingeniería en Mecatrónica", 18, 40);
+		if(estudy1.activarActor()) {
+			System.out.println("Actor Estudiante Activo");
+			}
+			else {
+				System.out.println("Actor Estudiante INactivo");
+			}
+		System.out.println(estudy1.informarQueEs());
+		System.out.println(estudy1.salular());
+		System.out.println(estudy1.aprender());
+		System.out.println(estudy1.toString());
+		
+		
+		System.out.println(estudy1.informarPorcentaje());
+		estudy1.aprobarMateria();
+		estudy1.CalcularPorcentaje();
+		System.out.println(estudy1.getMateriasAprovadas());
+		System.out.println(estudy1.informarPorcentaje());
+
+	}
+
+}

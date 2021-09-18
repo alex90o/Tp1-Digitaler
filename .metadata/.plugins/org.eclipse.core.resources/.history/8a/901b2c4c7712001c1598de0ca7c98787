@@ -1,0 +1,10 @@
+package practica;
+
+public class Estudiantes extends Persona {
+private int legajo;
+private String carrera;
+private int materiasAprovadas;
+private int materiaTotales;
+
+
+}

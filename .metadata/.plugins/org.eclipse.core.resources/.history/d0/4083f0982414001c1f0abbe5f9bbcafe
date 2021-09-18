@@ -1,0 +1,21 @@
+package practica;
+
+public class Arbusto extends Vegetal implements Actor{
+
+
+//metodos de la interface
+@Override
+public String informarQueEs() {
+	return SERVIVO+" y soy un Arbusto";
+}
+@Override
+public boolean activarActor() {
+	return Arbusto.ACTIVO;
+	}
+@Override
+public boolean desactivarActor() {
+    return Arbusto.INACTIVO;
+}
+}
+
+

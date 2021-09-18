@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="practica.Persona"/>
+    <fullyQualifiedTypeName name="practica.Estudiantes"/>
+    <fullyQualifiedTypeName name="practica.Profesor"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="practica.Vegetal"/>
+    <fullyQualifiedTypeName name="practica.Actor"/>
+    <fullyQualifiedTypeName name="practica.Arbusto"/>
+</qualifiedTypeNameHistroy>

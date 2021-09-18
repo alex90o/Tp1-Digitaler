@@ -1,0 +1,15 @@
+package practica;
+
+public class Vegetal {
+protected boolean comestible;
+protected String nombre;
+protected String flor;
+protected String raiz;
+protected Stirng tallo;
+protected String hoja;
+protected String tipo;
+protected float altura; 
+
+
+
+}

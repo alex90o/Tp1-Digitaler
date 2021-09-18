@@ -1,0 +1,42 @@
+package practica;
+
+public class Arbusto extends Vegetal implements Actor{
+
+private int CantDeRamitas;
+
+
+//contructores
+public Arbusto(boolean comestible, String nombre, String flor, String raiz, String tallo, String hoja, String tipo,
+		float altura, int cantDeRamitas) {
+	super(comestible, nombre, flor, raiz, tallo, hoja, tipo, altura);
+	CantDeRamitas = cantDeRamitas;
+}
+public Arbusto() {
+	
+}
+//Set y Get
+public int getCantDeRamitas() {
+	return CantDeRamitas;
+}
+public void setCantDeRamitas(int cantDeRamitas) {
+	CantDeRamitas = cantDeRamitas;
+}
+
+
+//metodos de la interface
+@Override
+public String informarQueEs() {
+	return SERVIVO+" y soy un Arbusto";
+}
+
+@Override
+public boolean activarActor() {
+	return Arbusto.ACTIVO;
+	}
+@Override
+public boolean desactivarActor() {
+    return Arbusto.INACTIVO;
+}
+}
+
+

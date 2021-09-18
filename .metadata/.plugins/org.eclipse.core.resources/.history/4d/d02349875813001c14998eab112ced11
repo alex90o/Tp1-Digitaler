@@ -1,0 +1,22 @@
+package practica;
+
+public class AppPrincipal {
+
+	public static void main(String[] args) {
+		//estudiante
+		Persona perE= new Estudiantes(35664, "Pedro", "Lopez", 25, "Cordoba 349", 101123, "Comunicación Social", 15, 20);
+		if(perE.activarActor()) {
+			System.out.println("Actor Estudiante Activo");
+			}
+			else {
+				System.out.println("Actor Estudiante INactivo");
+			}
+		perE.aprender();
+		perE.informarQueEs();
+		
+		
+		
+
+	}
+
+}

@@ -1,0 +1,49 @@
+package practica;
+
+public class Vegetal {
+protected boolean comestible;
+protected String nombre;
+protected String flor;
+protected String raiz;
+protected Stirng tallo;
+protected String hoja;
+protected String tipo;
+protected float altura; 
+protected double oxigeno;
+
+public Vegetal() {
+
+}
+
+public Vegetal() {
+    this.comestible = comestible;
+    this.nombre = nombre;
+    this.flor = flor;
+    this.raiz = raiz;
+    this.tallo = tallo;
+    this.hoja = hoja;
+    this.tipo = tipo;
+    this.altura = altura;
+}
+
+public void realizarFotosintesis() {
+
+}
+
+public void reproducirse() {
+
+}
+
+public void respirar() {
+
+}
+
+public void darSombra() {
+
+}
+
+public double devuelveOxigeno(double oxigeno) {
+    return oxigeno;
+}
+
+}
